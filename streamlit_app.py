@@ -8,7 +8,7 @@ st.set_page_config(
     page_title="Car Price Predictor",
     page_icon="🚗",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
     menu_items={
         'About': "This is a simple car price predictor app"
         'Get Help': "uchechukwuilorah@gmail.com"
