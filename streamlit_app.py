@@ -9,6 +9,10 @@ st.set_page_config(
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="expanded"
+    menu_items={
+        'About': "This is a simple car price predictor app"
+        'Get Help': "uchechukwuilorah@gmail.com"
+    }
 )
 
 # Load the trained model
