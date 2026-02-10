@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "This is a simple car price predictor app"
+        'About': "This is a simple car price predictor app",
         'Get Help': "uchechukwuilorah@gmail.com"
     }
 )
