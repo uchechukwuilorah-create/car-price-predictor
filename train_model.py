@@ -9,9 +9,14 @@ from sklearn.metrics import r2_score, mean_absolute_error
 import joblib as jl # Using joblib for saving the model
 import pickle
 
-# Load the data
+# Load the data 
 df = pd.read_csv('car_price_data.csv')
+#i Did my EDA(Exploratory Data Analysis and it was non null
+print("DataFrame Info:")
+df.info()
 
+print("Descriptive Statistics:")
+print(df.describe())
 # Define features and target
 X = df.drop('Price', axis=1)
 y = df['Price']
